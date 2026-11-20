@@ -18,7 +18,7 @@ function Home() {
         <ul className="service-list">
           <li>Full-Stack Web Development</li>
           <li>Custom Software Development</li>
-          <li></li>
+          <li> REST API &amp; Backend Services</li>
         </ul>
 
         <div className="profile-divider" />
