@@ -11,6 +11,7 @@ Short description of who you are and what you do.
 - React
 - Vite
 - CSS
+-javascript
 
 ## Run Locally
 ```bash
@@ -19,6 +20,6 @@ npm run dev
 ```
 
 ## Contact
-- Email: your@email.com
+- Email: getatarkie@email.com
 - GitHub: https://github.com/getaneh21-hu
 - Telegram:https://t.me/getanehgech
