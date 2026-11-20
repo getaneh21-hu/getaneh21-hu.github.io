@@ -1,0 +1,154 @@
+
+.education-section {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 6%;
+    border-top: 1px solid var(--border);
+  }
+  
+  .education-header {
+    max-width: 650px;
+    margin-bottom: 50px;
+  }
+  
+  .education-header h2 {
+    margin-top: 18px;
+    font-size: clamp(30px, 5vw, 48px);
+    letter-spacing: -2px;
+  }
+  
+  .education-header > p:last-child {
+    margin-top: 18px;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  
+  .education-content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .education-card {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  
+  .education-number {
+    color: var(--accent);
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+  }
+  
+  .education-type {
+    color: var(--accent);
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+  }
+  
+  .education-card h3 {
+    margin-top: 12px;
+    font-size: 21px;
+  }
+  
+  .education-card p:not(.education-type) {
+    max-width: 750px;
+    margin-top: 13px;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.9;
+  }
+  
+  .education-status {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 7px 11px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    color: var(--accent);
+    font-size: 10px;
+  }
+  
+  .learning-resources {
+    margin-top: 75px;
+  }
+  
+  .learning-resources > h3 {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-size: clamp(24px, 4vw, 34px);
+  }
+  
+  .resource-groups {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+  }
+  
+  .resource-group h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .resource-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .resource-card {
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    transition: border-color 0.2s ease;
+  }
+  
+  .resource-card:hover {
+    border-color: var(--accent);
+  }
+  
+  .resource-card h5 {
+    font-size: 13px;
+  }
+  
+  .resource-card p {
+    margin-top: 7px;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.6;
+  }
+  
+  .resource-card > span {
+    color: var(--accent);
+    font-size: 18px;
+  }
+  
+  @media (max-width: 750px) {
+    .resource-groups {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .education-section {
+      padding: 65px 5%;
+    }
+  
+    .education-card {
+      grid-template-columns: 35px 1fr;
+      padding: 20px;
+    }
+  }
+  

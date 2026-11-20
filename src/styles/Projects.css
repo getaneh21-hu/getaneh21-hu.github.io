@@ -1,0 +1,116 @@
+
+.projects-section {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 6%;
+    border-top: 1px solid var(--border);
+  }
+  
+  .projects-header {
+    max-width: 650px;
+    margin-bottom: 55px;
+  }
+  
+  .projects-header h2 {
+    margin-top: 18px;
+    font-size: clamp(30px, 5vw, 48px);
+    letter-spacing: -2px;
+  }
+  
+  .projects-header > p:last-child {
+    margin-top: 18px;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    min-height: 300px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .project-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-4px);
+  }
+  
+  .project-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .project-top > span:first-child {
+    color: var(--accent);
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+  }
+  
+  .project-status {
+    padding: 7px 10px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    color: var(--muted);
+    font-size: 10px;
+  }
+  
+  .project-category {
+    margin-top: 35px;
+    color: var(--accent);
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  
+  .project-card h3 {
+    margin-top: 12px;
+    font-size: 24px;
+  }
+  
+  .project-description {
+    margin-top: 14px;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  
+  .project-tech {
+    margin-top: auto;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .project-tech span {
+    padding: 7px 10px;
+    background: var(--surface-light);
+    border-radius: 4px;
+    color: var(--muted);
+    font-size: 10px;
+  }
+  
+  @media (max-width: 750px) {
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .projects-section {
+      padding: 65px 5%;
+    }
+  }
+  
