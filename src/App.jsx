@@ -8,6 +8,7 @@ import Skills from "./sections/Skills.jsx";
 import Projects from "./sections/Projects";
 import Education from "./sections/Education";
 import Contact from "./sections/Contact";
+import Freelance from "./sections/Freelance";
 
 
 import "./styles/global.css";
