@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
   { label: "Education", href: "#education" },
+  { label: "Hire Me", href: "#hire" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -55,9 +56,9 @@ function Navbar() {
         ))}
       </nav>
 
-      <a href="#contact" className="navbar-contact">
-        Let's Talk <span>↗</span>
-      </a>
+      <a href="#hire" className="navbar-contact">
+         Hire Me <span>↗</span>
+       </a>
     </header>
   );
 }

@@ -8,7 +8,7 @@ import Skills from "./sections/Skills.jsx";
 import Projects from "./sections/Projects";
 import Education from "./sections/Education";
 import Contact from "./sections/Contact";
-import Freelance from "./sections/Freelance";
+import Hire from "./sections/Hire";
 
 
 import "./styles/global.css";
@@ -32,6 +32,7 @@ function App() {
         <Skills />
         <Projects />
         <Education />
+        <Hire/>
         <Contact />
       </main>
 
